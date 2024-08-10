@@ -1,0 +1,205 @@
+* {
+    background-color: #191919;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+  
+#header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+#header h1 {
+    color: aliceblue;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 150px;
+}
+#header span{
+    float: right;
+}
+
+#header span a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 1s color;
+}
+
+#header span a:hover {
+    color: aqua;
+}
+  
+#main_m img {
+    height: 50%;
+    width: 40%;
+    margin-left: 20px;
+}
+  
+#main_m {
+    margin-top: 40px;
+}
+  
+#main_m h1 {
+    font-size: 80px;
+    font-weight: 500;
+    width: 100%;
+    color: aliceblue;
+    margin-right: 10%;
+    margin-top: 12%;
+    margin-bottom: 0px;
+}
+  
+#list {
+    width: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#list h3 {
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+  
+#list img {
+    width: 30px;
+    margin: 0 10px;
+}
+  
+#mm {
+    width: 45%;
+    float: right;
+}
+
+#Episodes{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+.button{
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #118DA8;
+    padding: 10px;
+    border: 1px solid #118DA8;
+    border-radius: 8px;
+    transition: 1s;
+}
+.button:hover{
+    background-color: #191919;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+}
+.box{
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    height: 420px;
+    width: 100%;
+    background-color: black;
+}
+#About{
+    margin-top: 150px;
+}
+
+.subscribe{
+    margin-top: 190px;
+    width: 100%;
+    background-color: black;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+#hhs{
+    float: left;
+    color: antiquewhite;
+    padding-top: 65px;
+    padding-left: 20px;
+    background-color: black;
+    font-size: 60px;
+    width: 300px;
+    border-radius: 30px;
+}
+.subscribe-form input{
+    float: right;
+    margin-top: 50px;
+    background-color: black;
+}
+.textIn{
+    width: 40%;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: right;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+
+#Submit{
+    margin-top: 100px;
+}
+
+#otz{
+    width: 100%;
+    height: 580px;
+    background-color: #191919;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.boxx{
+    width: 300px;
+    background-color: black;
+    height: 220px;
+    border-radius: 10px;
+}
+
+#Footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#Footer div h1{
+    background-color: #191919;
+    font-size: 35px;
+    color: aliceblue;
+    width: 200px;
+}
+
+#menuF{
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    align-items:center;
+}
+#menuF span a{
+    text-decoration: none;
+    padding-top: 0px;
+    color: aliceblue;
+}
+#menuT{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+}
+#menuT span a{
+    text-decoration: none;
+    color: aliceblue;
+}
